@@ -1,0 +1,15 @@
+CREATE DATABASE CalculadoraDB;
+GO
+
+USE CalculadoraDB;
+GO
+
+CREATE TABLE HistorialCalculos (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    Operacion VARCHAR(100) NOT NULL,
+    Valor1 DECIMAL(18,2) NOT NULL,
+    Valor2 DECIMAL(18,2) NOT NULL,
+    Resultado DECIMAL(18,2) NOT NULL,
+    Fecha DATETIME DEFAULT GETDATE()
+);
+GO
