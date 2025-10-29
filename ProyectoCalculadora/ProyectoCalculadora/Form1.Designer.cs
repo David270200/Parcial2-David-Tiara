@@ -64,6 +64,7 @@
             btnBorrar.TabIndex = 0;
             btnBorrar.Text = "borrar";
             btnBorrar.UseVisualStyleBackColor = true;
+            btnBorrar.Click += btnBorrar_Click;
             // 
             // tbDisplay
             // 
@@ -85,6 +86,7 @@
             btnDivision.TabIndex = 2;
             btnDivision.Text = "/";
             btnDivision.UseVisualStyleBackColor = true;
+            btnDivision.Click += btnDivision_Click;
             // 
             // btnMultiplicacion
             // 
@@ -95,6 +97,7 @@
             btnMultiplicacion.TabIndex = 3;
             btnMultiplicacion.Text = "X";
             btnMultiplicacion.UseVisualStyleBackColor = true;
+            btnMultiplicacion.Click += btnMultiplicacion_Click;
             // 
             // btnResta
             // 
@@ -149,6 +152,7 @@
             btnCE.TabIndex = 8;
             btnCE.Text = "CE";
             btnCE.UseVisualStyleBackColor = true;
+            btnCE.Click += btnCE_Click;
             // 
             // btnPorcentaje
             // 
@@ -159,6 +163,7 @@
             btnPorcentaje.TabIndex = 9;
             btnPorcentaje.Text = "%";
             btnPorcentaje.UseVisualStyleBackColor = true;
+            btnPorcentaje.Click += btnPorcentaje_Click;
             // 
             // btnRaiz
             // 
@@ -169,6 +174,7 @@
             btnRaiz.TabIndex = 10;
             btnRaiz.Text = "√";
             btnRaiz.UseVisualStyleBackColor = true;
+            btnRaiz.Click += btnRaiz_Click;
             // 
             // btnPotencia
             // 
@@ -179,6 +185,7 @@
             btnPotencia.TabIndex = 11;
             btnPotencia.Text = "x^";
             btnPotencia.UseVisualStyleBackColor = true;
+            btnPotencia.Click += btnPotencia_Click;
             // 
             // button12
             // 
@@ -296,6 +303,7 @@
             btnDecimal.TabIndex = 22;
             btnDecimal.Text = ".";
             btnDecimal.UseVisualStyleBackColor = true;
+            btnDecimal.Click += btnDecimal_Click;
             // 
             // btn0
             // 
@@ -317,6 +325,7 @@
             btnNegativo.TabIndex = 24;
             btnNegativo.Text = "+/-";
             btnNegativo.UseVisualStyleBackColor = true;
+            btnNegativo.Click += btnNegativo_Click;
             // 
             // Form1
             // 

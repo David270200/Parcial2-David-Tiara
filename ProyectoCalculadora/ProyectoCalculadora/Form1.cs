@@ -73,6 +73,10 @@ namespace ProyectoCalculadora
         {
             //boton Clear
             tbDisplay.Text = "";
+            valor1 = 0;
+            valor2 = 0;
+            resultado = 0;
+            operacion = 0;
 
         }
 
@@ -83,12 +87,28 @@ namespace ProyectoCalculadora
 
             switch (operacion)
             {
-                case 1: resultado = valor1 + valor2;
-                       break;
-                    case 2: resultado = valor1 - valor2;
-                        break;
+                case 1:
+                    resultado = valor1 + valor2;
+                    break;
+                case 2:
+                    resultado = valor1 - valor2;
+                    break;
+                case 3:
+                    resultado = valor1 * valor2;
+                    break;
+                case 4:
+                    resultado = valor1 / valor2;
+                    break;
+    
+                case 5:
+                    resultado = Math.Pow(valor1, valor2);
+                    break;
+
+                case 6:
+                    resultado = (valor1 * valor2) / 100;
+                    break;
             }
-            
+
             tbDisplay.Text = resultado.ToString();
 
 
@@ -98,7 +118,7 @@ namespace ProyectoCalculadora
         {
             //suma
             operacion = 1;
-            valor1 = Convert.ToDouble(tbDisplay.Text);
+            valor1 = Convert.ToDouble(tbDisplay.Text); //convierte los caracteres a double 
             tbDisplay.Text = "";
         }
 
@@ -106,6 +126,82 @@ namespace ProyectoCalculadora
         {
             //boton resta
             operacion = 2;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+            tbDisplay.Text = "";
+        }
+
+        private void btnMultiplicacion_Click(object sender, EventArgs e)
+        {
+            //boton multiplicacion
+            operacion = 3;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+            tbDisplay.Text = "";
+        }
+
+        private void btnDivision_Click(object sender, EventArgs e)
+        {
+            //boton division
+            operacion = 4;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+            tbDisplay.Text = "";
+
+        }
+
+        private void btnDecimal_Click(object sender, EventArgs e)
+        {
+            //boton punto decimal
+            tbDisplay.Text = tbDisplay.Text = ".";
+        }
+
+        private void btnRaiz_Click(object sender, EventArgs e)
+        {
+            //raiz
+            double valor;
+            double resultado;
+
+            valor = Convert.ToDouble(tbDisplay.Text);
+            resultado = Math.Sqrt(valor);
+
+            tbDisplay.Text = resultado.ToString();
+        }
+
+        private void btnPotencia_Click(object sender, EventArgs e)
+        {
+            //potencia
+            operacion = 5;
+            valor1 = Convert.ToDouble(tbDisplay.Text);
+            tbDisplay.Text = "";
+        }
+
+        private void btnNegativo_Click(object sender, EventArgs e)
+        {
+            double valor;
+
+            valor = Convert.ToDouble(tbDisplay.Text);
+            valor = valor * -1;
+
+            tbDisplay.Text = valor.ToString();
+        }
+
+        private void btnCE_Click(object sender, EventArgs e)
+        {
+            // boton CE (borra solo la entrada actual)
+            tbDisplay.Text = "";
+        }
+
+        private void btnBorrar_Click(object sender, EventArgs e)
+        {
+            // boton borrar ultimo digito
+            if (tbDisplay.Text.Length > 0)
+            {
+                tbDisplay.Text = tbDisplay.Text.Substring(0, tbDisplay.Text.Length - 1);
+            }
+        }
+
+        private void btnPorcentaje_Click(object sender, EventArgs e)
+        {
+            //porcentaje
+            operacion = 6;
             valor1 = Convert.ToDouble(tbDisplay.Text);
             tbDisplay.Text = "";
         }
