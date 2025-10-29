@@ -1,3 +1,6 @@
+using System.Data;
+using System.Data.SqlClient;
+
 namespace ProyectoCalculadora
 {
     public partial class Form1 : Form
@@ -9,6 +12,27 @@ namespace ProyectoCalculadora
         private double resultado;
 
         private int operacion;
+
+        private void GuardarHistorial(string operacion, double valor1, double valor2, double resultado)
+        {
+            string conexion = @"Server=localhost\SQLEXPRESS;Database=CalculadoraDB;Trusted_Connection=True;";
+
+            SqlConnection con = new SqlConnection(conexion);
+            con.Open();
+
+            string query = "INSERT INTO HistorialCalculos (Operacion, Valor1, Valor2, Resultado) " +
+                           "VALUES (@Operacion, @Valor1, @Valor2, @Resultado)";
+
+            SqlCommand cmd = new SqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@Operacion", operacion);
+            cmd.Parameters.AddWithValue("@Valor1", valor1);
+            cmd.Parameters.AddWithValue("@Valor2", valor2);
+            cmd.Parameters.AddWithValue("@Resultado", resultado);
+
+            cmd.ExecuteNonQuery();
+            con.Close();
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -89,23 +113,29 @@ namespace ProyectoCalculadora
             {
                 case 1:
                     resultado = valor1 + valor2;
+                    GuardarHistorial("Suma", valor1, valor2, resultado);
                     break;
                 case 2:
                     resultado = valor1 - valor2;
+                    GuardarHistorial("Resta", valor1, valor2, resultado);
                     break;
                 case 3:
                     resultado = valor1 * valor2;
+                    GuardarHistorial("Multiplicación", valor1, valor2, resultado);
                     break;
                 case 4:
                     resultado = valor1 / valor2;
+                    GuardarHistorial("División", valor1, valor2, resultado);
                     break;
-    
+
                 case 5:
                     resultado = Math.Pow(valor1, valor2);
+                    GuardarHistorial("Potencia", valor1, valor2, resultado);
                     break;
 
                 case 6:
                     resultado = (valor1 * valor2) / 100;
+                    GuardarHistorial("Porcentaje", valor1, valor2, resultado);
                     break;
             }
 
@@ -161,7 +191,7 @@ namespace ProyectoCalculadora
 
             valor = Convert.ToDouble(tbDisplay.Text);
             resultado = Math.Sqrt(valor);
-
+            GuardarHistorial("Raiz", valor, 0, resultado);
             tbDisplay.Text = resultado.ToString();
         }
 
@@ -204,6 +234,12 @@ namespace ProyectoCalculadora
             operacion = 6;
             valor1 = Convert.ToDouble(tbDisplay.Text);
             tbDisplay.Text = "";
+        }
+
+        private void btnHistorial_Click(object sender, EventArgs e)
+        {
+            Form2 historialForm = new Form2();
+            historialForm.ShowDialog(); //  ventana de historial
         }
     }
 }

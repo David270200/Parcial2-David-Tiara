@@ -15,3 +15,12 @@ C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\Pr
 C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.pdb
 C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.genruntimeconfig.cache
 C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ref\ProyectoCalculadora.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.csproj.AssemblyReference.cache
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\Proyecto.88A249D9.Up2Date
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.Form2.resources

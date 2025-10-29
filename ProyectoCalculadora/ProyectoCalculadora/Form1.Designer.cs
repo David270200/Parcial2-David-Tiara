@@ -40,7 +40,7 @@
             btnPorcentaje = new Button();
             btnRaiz = new Button();
             btnPotencia = new Button();
-            button12 = new Button();
+            btnHistorial = new Button();
             btn9 = new Button();
             btn8 = new Button();
             btn7 = new Button();
@@ -187,13 +187,16 @@
             btnPotencia.UseVisualStyleBackColor = true;
             btnPotencia.Click += btnPotencia_Click;
             // 
-            // button12
+            // btnHistorial
             // 
-            button12.Location = new Point(20, 147);
-            button12.Name = "button12";
-            button12.Size = new Size(75, 59);
-            button12.TabIndex = 12;
-            button12.UseVisualStyleBackColor = true;
+            btnHistorial.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            btnHistorial.Location = new Point(20, 147);
+            btnHistorial.Name = "btnHistorial";
+            btnHistorial.Size = new Size(75, 59);
+            btnHistorial.TabIndex = 12;
+            btnHistorial.Text = "Historial";
+            btnHistorial.UseVisualStyleBackColor = true;
+            btnHistorial.Click += btnHistorial_Click;
             // 
             // btn9
             // 
@@ -344,7 +347,7 @@
             Controls.Add(btn7);
             Controls.Add(btn8);
             Controls.Add(btn9);
-            Controls.Add(button12);
+            Controls.Add(btnHistorial);
             Controls.Add(btnPotencia);
             Controls.Add(btnRaiz);
             Controls.Add(btnPorcentaje);
@@ -377,7 +380,7 @@
         private Button btnPorcentaje;
         private Button btnRaiz;
         private Button btnPotencia;
-        private Button button12;
+        private Button btnHistorial;
         private Button btn9;
         private Button btn8;
         private Button btn7;
