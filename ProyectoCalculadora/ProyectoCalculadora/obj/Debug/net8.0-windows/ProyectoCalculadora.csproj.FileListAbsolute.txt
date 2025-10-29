@@ -1,0 +1,17 @@
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\ProyectoCalculadora.exe
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\ProyectoCalculadora.deps.json
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\ProyectoCalculadora.runtimeconfig.json
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\ProyectoCalculadora.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\bin\Debug\net8.0-windows\ProyectoCalculadora.pdb
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.Form1.resources
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.csproj.GenerateResource.cache
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.AssemblyInfoInputs.cache
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.AssemblyInfo.cs
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.sourcelink.json
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\refint\ProyectoCalculadora.dll
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.pdb
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ProyectoCalculadora.genruntimeconfig.cache
+C:\Users\songo\Documents\Parcial_DS4\Parcial2-David-Tiara\ProyectoCalculadora\ProyectoCalculadora\obj\Debug\net8.0-windows\ref\ProyectoCalculadora.dll

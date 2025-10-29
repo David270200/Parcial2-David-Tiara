@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\songo\\Documents\\Parcial_DS4\\Parcial2-David-Tiara\\ProyectoCalculadora\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{775882C7-2BE8-4F78-BEE2-79349E169A1C}|ProyectoCalculadora\\ProyectoCalculadora.csproj|c:\\users\\songo\\documents\\parcial_ds4\\parcial2-david-tiara\\proyectocalculadora\\proyectocalculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{775882C7-2BE8-4F78-BEE2-79349E169A1C}|ProyectoCalculadora\\ProyectoCalculadora.csproj|solutionrelative:proyectocalculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{775882C7-2BE8-4F78-BEE2-79349E169A1C}|ProyectoCalculadora\\ProyectoCalculadora.csproj|c:\\users\\songo\\documents\\parcial_ds4\\parcial2-david-tiara\\proyectocalculadora\\proyectocalculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{775882C7-2BE8-4F78-BEE2-79349E169A1C}|ProyectoCalculadora\\ProyectoCalculadora.csproj|solutionrelative:proyectocalculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775882C7-2BE8-4F78-BEE2-79349E169A1C}|ProyectoCalculadora\\ProyectoCalculadora.csproj|C:\\Users\\songo\\Documents\\Parcial_DS4\\Parcial2-David-Tiara\\ProyectoCalculadora\\proyectocalculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{775882C7-2BE8-4F78-BEE2-79349E169A1C}|ProyectoCalculadora\\ProyectoCalculadora.csproj|solutionrelative:proyectocalculadora\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,24 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\songo\\Documents\\Parcial_DS4\\Parcial2-David-Tiara\\ProyectoCalculadora\\ProyectoCalculadora\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoCalculadora\\Form1.cs",
               "ToolTip": "C:\\Users\\songo\\Documents\\Parcial_DS4\\Parcial2-David-Tiara\\ProyectoCalculadora\\ProyectoCalculadora\\Form1.cs",
               "RelativeToolTip": "ProyectoCalculadora\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAADgl5mZmZknwFcAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-28T05:12:41.051Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\songo\\Documents\\Parcial_DS4\\Parcial2-David-Tiara\\ProyectoCalculadora\\ProyectoCalculadora\\Form1.cs",
               "RelativeDocumentMoniker": "ProyectoCalculadora\\Form1.cs",
